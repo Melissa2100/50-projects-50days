@@ -33,6 +33,10 @@ body {
  color: lightgreen;
 }
 
+.container a:hover {
+ color: rgb(70, 180, 112);
+}
+
 .btn {
  cursor: pointer;
  display: inline-block;
@@ -48,6 +52,10 @@ body {
 
 .btn:focus {
  outline: 0;
+}
+
+.btn:hover {
+ background-color: rgb(70, 180, 112);
 }
 
 .btn:active {
